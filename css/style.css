@@ -1,0 +1,969 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+/* font-family: 'Raleway', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Header Section CSS Start Here  */
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+button:focus {
+    outline-color: transparent;
+}
+
+.navbar-toggler {
+    background-color: #f39c12;
+    border-color: #f39c12;
+}
+
+.menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #bbbbbb;
+    font-size: 18px;
+    margin: 10px;
+    padding: 0px;
+    transition: .4s all ease-in-out;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f39c12;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 00%;
+    left: 0%;
+    bottom: -77%;
+    background-color: #f39c12;
+    transition: .4s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 00%;
+    right: 0%;
+    bottom: -77%;
+    background-color: #f39c12;
+    transition: .4s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 50%
+}
+
+.btn-secondary {
+    color: #bbbbbb;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.btn-secondary:focus {
+    color: #f39c12 !important;
+}
+
+.btn-secondary:hover {
+    color: #bbbbbb;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-menu {
+    left: -270%;
+    padding: 0;
+}
+
+.btn-secondary.dropdown-toggle {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none !important;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-secondary.dropdown-toggle {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.dropdown-menu .in-put {
+    display: flex;
+    height: 100%;
+}
+
+.dropdown-menu .in-put input {
+    border: none;
+    padding-left: 10px;
+    box-shadow: none;
+    outline: none;
+}
+
+.search-icon {
+    background-color: #f39c12;
+    margin: 3px;
+    width: 40px;
+    text-align: center;
+    padding: 5px 0px;
+    color: #fff;
+}
+
+.header-content .rong {
+    color: #f39c12;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.header-content h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.header-content .btn-started {
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 0px;
+    transition: .4s all ease-in-out;
+    margin-right: 5px;
+    box-shadow: none;
+}
+
+.header-content .btn-portfolio {
+    border: 1px solid #f39c12;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 0px;
+    background-color: #f39c12;
+    transition: .4s all ease-in-out;
+    margin-left: 5px;
+    box-shadow: none;
+}
+
+.btn-started:hover {
+    background-color: #f39c12;
+    border: 1px solid transparent;
+}
+
+.btn-portfolio:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.hg {
+    min-height: 90vh;
+}
+
+.btn-btn {
+    margin-top: 100px;
+}
+
+
+/* Header Section CSS End Here  */
+
+
+/* About me Section CSS Start Here  */
+
+.about_me h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 41px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #383838;
+    margin-top: -10px;
+}
+
+.span {
+    display: block;
+    height: 1px;
+    width: 70%;
+    background-color: #f39c12;
+    margin: auto;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.span::before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f39c12;
+    animation: ani 5s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ani {
+    0% {
+        left: 50%;
+    }
+    25% {
+        left: 60%;
+    }
+    50% {
+        left: 50%;
+    }
+    75% {
+        left: 40%;
+    }
+}
+
+.about_me p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #686767;
+}
+
+.bar h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #383838;
+    font-size: 20px;
+}
+
+.progress {
+    margin: 10px 0px;
+    border-radius: 0px;
+    height: 10px;
+    width: 80%;
+}
+
+.progress-bar {
+    background-color: #f39c12;
+    height: 10px;
+}
+
+.progrs {
+    position: relative;
+}
+
+.percent {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.badge-percent {
+    background-color: #f39c12;
+    padding: 10px;
+    border-radius: 0;
+    position: relative;
+    color: #fff;
+}
+
+.badge-percent::before {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: #f39c12;
+    left: -4px;
+    top: 20%;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+
+/* About me Section CSS End Here  */
+
+
+/* Service Section CSS Start Here  */
+
+.box {
+    border: 1px solid #efefef;
+    position: relative;
+    transition: .4s all ease-in-out;
+}
+
+.box:hover {
+    border: none;
+    border-top: 1px solid #fdefd9;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    background-color: #f39c12;
+    z-index: -1;
+    transition: .7s all ease-in-out;
+    transform: scale(0);
+    transform-origin: bottom right;
+}
+
+.box:hover::before {
+    /* width: 100%; */
+    transform: scale(1);
+    color: #fff !important;
+    transform-origin: top left;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top: 0%;
+    left: 0%;
+    border-top: 100px solid #fff;
+    border-right: 100px solid transparent;
+    z-index: 1;
+}
+
+.tile {
+    position: absolute;
+    background-color: transparent;
+    content: '';
+    height: 0px;
+    width: 0px;
+    /* top: -0.5%;
+    left: -0.2%; */
+    top: -0%;
+    left: -0%;
+    border-top: 1px solid #f39c12;
+    border-left: 1px solid #f39c12;
+    z-index: 2;
+    transition: .8s all ease-in-out;
+}
+
+.box:hover .tile {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* .tile::before{
+    
+} */
+
+.box .icon {
+    border: 1px solid #919190;
+    background-color: #919190;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 20px 0px !important;
+    padding: 0;
+    line-height: 60px;
+    text-align: center !important;
+    display: inline-block;
+    font-size: 25px;
+    transition: .8s all ease-in-out;
+}
+
+.box:hover .icon {
+    background-color: #fff;
+    color: #f39c12;
+    border: 1px solid #fff;
+}
+
+.box:hover h3,
+.box:hover p {
+    color: #fff;
+}
+
+.box h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #6e6e6e;
+    font-weight: bold;
+    font-size: 21.73px;
+    text-transform: uppercase;
+    transition: .8s all ease-in-out;
+}
+
+.box p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6b6b;
+    font-size: 17.38px;
+    transition: .8s all ease-in-out;
+}
+
+
+/* Service Section CSS End Here  */
+
+
+/* Sstatistics Section CSS Start Here  */
+
+.statistics {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/statisctic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    color: #fff;
+    margin: 100px 0px;
+}
+
+.statistics .about_me h1 {
+    color: #fff !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.statistics .statistic_content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+.statistics .statistic_content h3 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.statistics .statistic_icon {
+    background: #fff;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #f39c12;
+    margin: auto;
+}
+
+.over_line {
+    position: relative;
+}
+
+.over_line::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Sstatistics Section CSS End Here  */
+
+
+/* My Works Section CSS Start Here  */
+
+
+/* .........................................................  */
+
+.gallery-title {
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.filter-button {
+    font-size: 18px;
+    border-radius: 0;
+    text-align: center;
+    color: #383838;
+    margin-bottom: 30px;
+}
+
+.filter-button:hover {
+    font-size: 18px;
+    border-radius: 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f39c12;
+}
+
+.btn-default:active:focus .filter-button:active {
+    background-color: #f39c12;
+    color: white;
+}
+
+.btn-default:focus {
+    background-color: #f39c12;
+    color: white;
+    box-shadow: none;
+}
+
+.port-image {
+    width: 100%;
+}
+
+.gallery_product {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+/* .........................................................  */
+
+.project_content {
+    background-color: #232323;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+}
+
+.project_content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.project_content p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b5b4b4;
+    font-size: 14px;
+}
+
+.gallery_product:hover .project_content {
+    opacity: 1;
+    bottom: 0%;
+}
+
+.search {
+    position: absolute;
+    color: #fff;
+    background-color: #f39c12;
+    top: 0%;
+    right: 8%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.gallery_product img {
+    opacity: 1;
+}
+
+.gallery_product:hover img {
+    opacity: .9;
+}
+
+.gallery_product:hover .search {
+    opacity: 1;
+    top: 4%;
+}
+
+
+/* My Works Section CSS End Here  */
+
+
+/* Recent Story Section CSS Start Here  */
+
+.first-post {
+    display: flex;
+    border: 1px solid #f3f3f3;
+}
+
+.first-post p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #858282;
+    margin: 0;
+}
+
+.first-post .making {
+    color: #7e7d7d;
+    font-size: 16px !important;
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
+    padding-bottom: 15px;
+    padding-right: 2%;
+}
+
+.first-post h3 {
+    color: #f39c12;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0%;
+    padding-bottom: 4%;
+}
+
+.first-post .contnt {
+    padding: 8% 0%;
+    padding-left: 8% !important;
+    padding-right: 6% !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #282828;
+    border-color: #282828;
+    border-radius: 0;
+    transition: .4s all ease-in-out;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #aaaaaa;
+    border-color: #aaaaaa;
+}
+
+.btn-primarry {
+    color: #fff;
+    background-color: #aaaaaa;
+    border-color: #aaaaaa;
+    border-radius: 0;
+    transition: .4s all ease-in-out;
+}
+
+.btn-primarry:hover {
+    color: #fff;
+    background-color: #282828;
+    border-color: #282828;
+}
+
+.btn {
+    padding: .375rem 0.95rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+/* Recent Story Section CSS End Here  */
+
+
+/* Life Changing Story Section CSS Start Here  */
+
+.life-changing {
+    background-color: #262626;
+}
+
+.life-changing .span {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.life-changing .about_me {
+    margin-right: 23%;
+}
+
+.life-changing .about_me h1 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.life-changing p {
+    color: #c7c7c7;
+    font-size: 15px;
+}
+
+.cntnt-story {
+    padding-right: 20% !important;
+    padding-left: 3%;
+}
+
+
+/* Life Changing Story Section CSS End Here  */
+
+
+/* Feedback Section CSS Start Here  */
+
+.clients-feedback .feedback {
+    background-color: #f6f6f6;
+    padding: 25px 50px 25px 35px;
+}
+
+.clients-feedback .feedback h5 {
+    text-transform: capitalize;
+    color: #807e7e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.clients-feedback .client {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.clients-feedback .client .client-details {
+    margin-left: 30px;
+}
+
+.clients-feedback .client .client-details h6 {
+    color: #f39c12;
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clients-feedback .client .client-details p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696868;
+    font-style: italic;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 35px solid #f6f6f6;
+    margin-left: 81px;
+    margin-bottom: 30px;
+}
+
+
+/* Feedback Section CSS End Here  */
+
+
+/* Tweet Section CSS Start Here  */
+
+.tweet {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner_tweet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff !important;
+    position: relative;
+}
+
+.tweet .about_me h1 {
+    color: #ffffff !important;
+}
+
+.tweet .about_me .span {
+    margin-bottom: 20px;
+}
+
+.latest_tweet span {
+    color: #f39c12;
+}
+
+
+/* Tweet Section CSS End Here  */
+
+
+/* Get in touch Section CSS Start Here  */
+
+.get_in_touch .about_me .span {
+    margin-bottom: -10px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #000000;
+    border-color: #f39c12;
+    box-shadow: none;
+    pointer-events: none;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #616161;
+}
+
+.btn-submit {
+    border: 1px solid #f39c12;
+    background: #f39c12;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 0;
+    transition: .4s all ease-in-out;
+}
+
+.btn-submit:hover {
+    background: transparent;
+    color: #f39c12;
+    outline: none;
+}
+
+.get_in_touch a {
+    text-decoration: none;
+}
+
+
+/* Get in touch Section CSS End Here  */
+
+
+/* Follow Section CSS Start Here  */
+
+.follow_me ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow_me ul li {
+    height: 45px;
+    width: 45px;
+    background-color: transparent;
+    margin-right: 2%;
+    text-align: center;
+    line-height: 45px;
+    color: #f39c12;
+    border: 1px solid #ebebeb;
+    transition: .4s all ease-in-out;
+}
+
+.follow_me ul li a {
+    color: #f39c12;
+    transition: .4s all ease-in-out;
+}
+
+.follow_me ul li:hover a {
+    color: #fff;
+}
+
+.follow_me ul li:hover {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+
+/* Follow Section CSS End Here  */
+
+
+/* Map CSS Start Here  */
+
+.map {
+    position: relative;
+}
+
+.map_cntn {
+    background-color: #f39c12;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(-15%, -50%);
+}
+
+.map_cntn p {
+    margin: 0;
+}
+
+.second_cntn p {
+    display: inline;
+}
+
+.second_cntn h4 {
+    display: inline;
+}
+
+
+/* Map CSS End Here  */
+
+
+/* Footer Section CSS Start Here  */
+
+footer {
+    background-color: #f39c12;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+    color: #505050;
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+footer span {
+    color: #fff;
+}
+
+
+/* Footer Section CSS End Here  */
+
+.ssm-sub-menu {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ssm-sub-menu span.ssm-elmt {
+    width: 20%;
+}
+
+.ssm-sub-menu {
+    width: 30px;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    width: 80% !important;
+}

@@ -1,0 +1,34 @@
+@media(max-width:767px) {
+    .ssm-sub-menu {
+        display: none !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin: 4px;
+    }
+    .header-content .rong {
+        text-align: center !important;
+        font-size: 50px !important;
+    }
+    .header-content h1 {
+        text-align: center !important;
+        font-size: 45px;
+    }
+}
+
+@media(max-width:575px) {
+    .header-content .rong {
+        font-size: 45px !important;
+    }
+    .header-content h1 {
+        font-size: 40px;
+    }
+    .hg {
+        min-height: 80vh !important;
+    }
+    .btn-btn {
+        margin-top: 50px;
+    }
+    .header-content .btn-started {
+        margin: 7px 0px;
+    }
+}
